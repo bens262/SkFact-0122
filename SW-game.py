@@ -216,7 +216,7 @@ class Game:
         board.begin()
         return board
 
-    def welcome(self):
+    def greet(self):
         print("Добро пожаловать в игру")
         print("      МОРСКОЙ БОЙ      ")
         print("Для начала игры введите")
@@ -258,7 +258,7 @@ class Game:
             num += 1
 
     def start(self):
-        self.welcome()
+        self.greet()
         self.loop()
 
 
